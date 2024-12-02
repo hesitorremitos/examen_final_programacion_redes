@@ -1,0 +1,9 @@
+body {
+    background: lightsteelblue;
+}
+
+h1 {
+    color: red;
+    background-color: beige;
+    padding: 2em 4em;
+}
