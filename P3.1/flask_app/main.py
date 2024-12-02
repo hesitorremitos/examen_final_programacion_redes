@@ -10,5 +10,10 @@ def main():
     return render_template("index.html")
 
 
+@sample.route("/feature")
+def feature():
+    return "This is a feature"
+
+
 if __name__ == "__main__":
     sample.run(host="0.0.0.0", port=5000)
